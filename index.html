@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EduLearn</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#progress">My Progress</a>
+            <a href="#profile">Profile</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Learn at Your Own Pace</h1>
+            <p>Access high-quality courses from expert instructors</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="courses-section">
+            <h2>Featured Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://placehold.co/300x200/4a90e2/ffffff?text=Web+Development&font=roboto" alt="Web Development">
+                        <span class="progress-badge">75% Complete</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Web Development Fundamentals</h3>
+                        <p>Learn HTML, CSS, and JavaScript basics</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 hours</span>
+                            <span><i class="fas fa-user-graduate"></i> 1.2k students</span>
+                        </div>
+                        <button class="continue-button">Continue Learning</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://placehold.co/300x200/2ecc71/ffffff?text=Python+Programming&font=roboto" alt="Python Programming">
+                        <span class="progress-badge">New</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Python Programming</h3>
+                        <p>Master Python programming from scratch</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 15 hours</span>
+                            <span><i class="fas fa-user-graduate"></i> 2.5k students</span>
+                        </div>
+                        <button class="enroll-button">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://placehold.co/300x200/e74c3c/ffffff?text=Data+Science&font=roboto" alt="Data Science">
+                        <span class="progress-badge">30% Complete</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science Essentials</h3>
+                        <p>Introduction to data analysis and visualization</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 20 hours</span>
+                            <span><i class="fas fa-user-graduate"></i> 1.8k students</span>
+                        </div>
+                        <button class="continue-button">Continue Learning</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Section -->
+        <section id="progress" class="progress-section">
+            <h2>My Learning Progress</h2>
+            <div class="progress-dashboard">
+                <div class="progress-stats">
+                    <div class="stat-card">
+                        <h3>Courses in Progress</h3>
+                        <p>3</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Completed Courses</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Total Hours Learned</h3>
+                        <p>45</p>
+                    </div>
+                </div>
+                <div class="current-course">
+                    <h3>Currently Watching</h3>
+                    <div class="video-container">
+                        <div class="video-player" id="videoPlayer">
+                            <!-- Video player will be initialized by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EduLearn</h3>
+                <p>Empowering learners worldwide</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#courses">All Courses</a>
+                <a href="#progress">My Progress</a>
+                <a href="#profile">Profile</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@edulearn.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EduLearn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
